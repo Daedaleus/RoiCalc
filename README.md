@@ -28,3 +28,21 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
+
+# For easy execution in windows
+
+```ps1
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
+```
+
+This will make it possible to execute the ps1 script.
+Afterwards run it with 
+
+```ps1
+.\setup_env.ps1
+```
+
+Afterwards run the script with
+```ps1
+python -m src.main
+```
